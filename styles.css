@@ -1,0 +1,35 @@
+/* Basic page styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#game-container {
+    width: 500px;
+    height: 500px;
+    background-color: #d3d3d3;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+#target {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+}
